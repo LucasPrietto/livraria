@@ -1,4 +1,4 @@
-/* estilos.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,300&display=swap');
 
 /* Reset de Estilos */
 * {
@@ -8,15 +8,20 @@
 }
 
 body {
-    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    font-family: 'Playfair'; /* Define a fonte padrão */
     background-color: #f0f0f0; /* Define a cor de fundo */
 }
 
 header {
-    background-color: #7ce9a6; /* Define a cor de fundo */
+    background-color: #2a8156; /* Define a cor de fundo */
     color: #ffffff; /* Define a cor do texto */
     text-align: center; /* Centraliza o texto */
     padding: 1rem; /* Define um espaçamento interno */
+}
+
+ul li:hover {
+    text-decoration: underline;
+    
 }
 
 nav ul {
@@ -25,13 +30,12 @@ nav ul {
 
 nav li {
     display: inline; /* Faz com que os itens da lista fiquem na mesma linha */
-    margin-right: 20px; /* Define um espaçamento entre os itens */
+    margin: 50px; /* Define um espaçamento entre os itens */
 }
 
 nav a {
     text-decoration: none; /* Remove o sublinhado dos links */
-    color: #000000; /* Define a cor do texto */
-    font-weight: bold; /* Define o peso da fonte */
+    color: #ffffff; /* Define a cor do texto */
 }
 
 main {
@@ -56,7 +60,7 @@ main {
 }
 
 .card button {
-    background-color: #333333;
+    background-color: #2a8156;
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -66,11 +70,11 @@ main {
 }
 
 .card button:hover {
-    background-color: #555; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #135232; /* Muda a cor de fundo ao passar o mouse */
 }
 
 footer {
-    background-color: #000000;
+    background-color: #2a8156;
     color: #fff;
     text-align: center;
     padding: 1rem;
